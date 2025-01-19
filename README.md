@@ -3,6 +3,10 @@
 
 Bem-vindo ao Langchain Starter Pack! Este repositório é um guia prático para quem deseja começar a trabalhar com **Langchain** e suas funcionalidades, oferecendo exemplos claros e explicações detalhadas.
 
+## Sobre as dependências para rodar esse projeto
+
+Amigo se você não consegue instalar o pyenv e o poetry sozinho é melhor voltar uns passos e voltar depois!
+
 ## O que é o Langchain?
 
 Langchain é uma poderosa ferramenta para a construção de aplicações baseadas em modelos de linguagem (LLMs). Ele permite que você interaja facilmente com LLMs, realize consultas em grandes volumes de dados, e manipule os resultados para construir soluções avançadas e escaláveis.
