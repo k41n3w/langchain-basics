@@ -160,17 +160,13 @@ Este starter pack cobre os seguintes tópicos:
 
    llm = OpenAI(temperature=0, openai_api_key='sua_chave_api')
    prompt_template = ChatPromptTemplate.from_messages(
-       [("human", "Contexto:
-{context}
-
-Pergunta: {question}
-Resposta:")]
+    [
+      ("human", "Contexto: {context} Pergunta: {question} Resposta:")
+    ]
    )
    llm_chain = LLMChain(llm=llm, prompt=prompt_template)
 
-   context = "
-
-".join([doc.page_content for doc in relevant_docs])
+   context = "".join([doc.page_content for doc in relevant_docs])
    question = "O que é o Ato de Direitos de Voto de John Lewis?"
    response = llm_chain.run({"context": context, "question": question})
    ```
