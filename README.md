@@ -20,11 +20,9 @@ Este repositório é um compilado de tutoriais e exemplos práticos que abrangem
 - **Trabalhando com dados**: Como estruturar, processar e preparar dados para uso com Langchain.
 - **Gerenciamento de dependências com Poetry**: Como usar o Poetry para gerenciar as dependências do projeto e garantir que seu ambiente esteja sempre configurado corretamente.
 - **Interagindo com LLMs**: Como configurar e usar modelos de linguagem, realizar inferências e interagir com APIs de LLM.
-- **RAG (Retrieval-Augmented Generation)**: Como utilizar a técnica de RAG para enriquecer as respostas de LLMs com dados externos.
 - **Splitters**: Técnicas para dividir textos em chunks menores, facilitando o processamento e a recuperação de informações.
-- **Metadados e recuperação de dados importantes**: Como trabalhar com os metadados dos dados para otimizar consultas e tornar as interações mais precisas.
 - **Vector Databases**: Como usar bancos de dados vetoriais para armazenar e recuperar dados relacionados a LLMs, otimizando o desempenho das consultas.
-- **Recuperando dúvidas em RAG**: Como aprimorar a recuperação de informações em um fluxo de RAG para obter respostas mais precisas e relevantes.
+- **RAG (Retrieval-Augmented Generation)**: Como utilizar a técnica de RAG para enriquecer as respostas de LLMs com dados externos. Como aprimorar a recuperação de informações em um fluxo de RAG para obter respostas mais precisas e relevantes.
 
 ## Como usar
 
@@ -32,8 +30,8 @@ Este repositório é um compilado de tutoriais e exemplos práticos que abrangem
 
 Antes de começar, você precisará de:
 
-- Python 3.x
-- Poetry
+- Python 3.11.4
+- Poetry 2.0.1
 
 ### Passos iniciais
 
@@ -59,6 +57,8 @@ Antes de começar, você precisará de:
    ```
 
 4. **Explore os tutoriais**: Cada pasta contém um tutorial específico, com explicações detalhadas em markdown e o código necessário para testar cada conceito.
+
+Se você tiver alguma questão é só me procurar, mas não vai ter porque o conteúdo é impecável.
 
 ## Como contribuir
 
